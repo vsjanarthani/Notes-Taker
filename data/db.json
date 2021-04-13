@@ -1,0 +1,19 @@
+{
+  "notes": [
+    {
+      "id": "5fb4abb1-953a-4183-9043-b603bc321ad3",
+      "title": "Get groceries",
+      "text": "list: milk, banana, bread, eggs"
+    },
+    {
+      "id": "398fd82a-748c-4d2a-8a32-d58632310cba",
+      "title": "Book Vaccine Appointment",
+      "text": "book the appointment as soon as its available online"
+    },
+    {
+      "id": "1c949b64-eb1d-400c-813c-f869efa52082",
+      "title": "Submit assignment",
+      "text": "submit bootcamp assignment before sunday deadline"
+    }
+  ]
+}

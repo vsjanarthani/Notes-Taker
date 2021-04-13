@@ -1,0 +1,26 @@
+{
+  "name": "notes-taker",
+  "version": "1.0.0",
+  "description": "App to take notes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsjanarthani/Notes-Taker.git"
+  },
+  "author": "Janarthani V Subramaniam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vsjanarthani/Notes-Taker/issues"
+  },
+  "homepage": "https://github.com/vsjanarthani/Notes-Taker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
