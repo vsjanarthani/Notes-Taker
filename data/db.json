@@ -1,19 +1,24 @@
 {
   "notes": [
     {
-      "id": "5fb4abb1-953a-4183-9043-b603bc321ad3",
-      "title": "Get groceries",
-      "text": "list: milk, banana, bread, eggs"
-    },
-    {
       "id": "398fd82a-748c-4d2a-8a32-d58632310cba",
       "title": "Book Vaccine Appointment",
       "text": "book the appointment as soon as its available online"
     },
     {
-      "id": "1c949b64-eb1d-400c-813c-f869efa52082",
-      "title": "Submit assignment",
-      "text": "submit bootcamp assignment before sunday deadline"
+      "id": "0ce658e4-7574-411c-bc6c-af2cd823dc0d",
+      "title": "Get groceries",
+      "text": "list: milk, eggs, bread, banana"
+    },
+    {
+      "id": "eb7fcde8-feb2-42ea-a16f-31f3ad27ff08",
+      "title": "File Tax Returns",
+      "text": "E-file both federal and state tax return before the deadline"
+    },
+    {
+      "id": "a1ed490e-1b02-4a69-a02b-3ae0305b0a99",
+      "title": "Finish laundry",
+      "text": "Complete Laundry by EOD"
     }
   ]
 }

@@ -4,7 +4,8 @@
   "description": "App to take notes",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/vsjanarthani/Notes-Taker/issues"
   },
-  "homepage": "https://github.com/vsjanarthani/Notes-Taker#readme",
+  "homepage": "https://my-notes-taker-app.herokuapp.com/",
   "dependencies": {
     "express": "^4.17.1",
     "uuid": "^8.3.2"
