@@ -4,8 +4,8 @@ html, body {
   padding: 0;
 }
 
-.bg-dark {
-  background-color: rgb(211, 85, 148) !important;
+.bg-pink {
+  background-color: #fb9191 !important;
 }
 
 .save-note {
@@ -24,6 +24,17 @@ html, body {
   width: 100%;
   outline: none;
   border: none;
+}
+
+img {
+  width:100px;
+  height:110px;
+}
+
+.navbar-brand {
+  font-variant: small-caps;
+  font-weight: bolder;
+  font-size: 2rem;
 }
 
 .note-textarea {
@@ -74,7 +85,7 @@ html, body {
 }
 
 .text-danger {
-  color:  rgb(211, 85, 148) !important;
+  color: #fb9191 !important;
 }
 
 @media screen and (max-width: 600px) {
