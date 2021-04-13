@@ -1,7 +1,7 @@
-# Note Taker Starter Code
+# Notes Taker APP
 
 ## Description
-This is an application for writing and saving notes.
+This is an application for creating and saving notes. 
 
 ## Languages
 JavaScript, HTML, CSS, ES6, Node.js, express.js.
