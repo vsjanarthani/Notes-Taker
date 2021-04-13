@@ -4,6 +4,10 @@ html, body {
   padding: 0;
 }
 
+.bg-dark {
+  background-color: rgb(211, 85, 148) !important;
+}
+
 .save-note {
   display: none;
 }
@@ -16,7 +20,7 @@ html, body {
 }
 
 .note-textarea, .note-title {
-  color: #000000;
+  color: #000000f1;
   width: 100%;
   outline: none;
   border: none;
@@ -67,4 +71,29 @@ html, body {
   border-right: none;
   padding: 20px;
   cursor: pointer;
+}
+
+.text-danger {
+  color:  rgb(211, 85, 148) !important;
+}
+
+@media screen and (max-width: 600px) {
+  
+  .note-title {
+    font-size: 1.8rem;
+  }
+
+  .list-group-item,
+  .list-container {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list-group-item span {
+    font-size: 12px;
+    padding-bottom: 8px;
+  }
+
 }
