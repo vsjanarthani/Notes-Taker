@@ -4,7 +4,11 @@ const { notes } = require ('../data/db.json');
 const uuid = require('uuid');
 const { validateNotes, addNote, deleteNote } = require ('../lib/notes');
 
-router.get('/notes', (req, res) => res.json(notes));
+router.get('/notes', (req, res) => {
+    console.log(notes);
+    res.json(notes);
+    
+}); 
 
 router.post('/notes', (req, res) => {
     const newNote = {
