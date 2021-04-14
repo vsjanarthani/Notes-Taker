@@ -26,12 +26,8 @@ router.post('/notes', (req, res) => {
 });
 
 router.delete('/notes/:id', (req, res) => {
-    console.log("hello");
-    const exists = notes.some(notes => {
-        console.log(typeof notes.id, typeof req.params.id);
-       return notes.id === req.params.id
-        
-    });
+    console.log("delete router got hit");
+    const exists = notes.some(notes => notes.id === req.params.id);
     
     if (exists) {
         return res.json(deleteNote(req.params.id, notes));
