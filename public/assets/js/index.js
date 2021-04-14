@@ -91,10 +91,8 @@ const handleNoteDelete = (e) => {
 
   deleteNote(noteId).then(() => {
     getAndRenderNotes();
-    renderActiveNote(); 
-    location.reload();
+    renderActiveNote();
   });
-  location.reload();
 };
 
 // Sets the activeNote and displays it
@@ -145,7 +143,6 @@ const renderNoteList = async (notes) => {
         'fa-trash-alt',
         'float-right',
         'text-danger',
-        'btn',
         'delete-note'
       );
       delBtnEl.addEventListener('click', handleNoteDelete);

@@ -22,6 +22,7 @@ router.post('/notes', (req, res) => {
 });
 
 router.delete('/notes/:id', (req, res) => {
+    console.log("hello");
     const exists = notes.some(notes => notes.id === req.params.id);
     if (exists) {
         return res.json(deleteNote(req.params.id, notes));
