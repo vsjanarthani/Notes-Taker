@@ -21,7 +21,7 @@ Inorder to install the necessary dependencies, run the following command in your
 ```npm install```
 
 ### Usage
-After installing all the dependencies, run ```node server.js``` in your terminal. The webpage is deployed at [Heroku-webpage](https://my-notes-taker-app.herokuapp.com/).
+After installing all the dependencies, run ```node server.js``` in your terminal. The webpage is deployed at [Heroku-webpage](https://note-taker-jana.herokuapp.com/notes).
 
 ### License
 This application is covered under the following license. For more information on license's conditions, permissions and limitations please visit [here](https://choosealicense.com/licenses/) 
