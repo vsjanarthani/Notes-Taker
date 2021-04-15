@@ -32,7 +32,7 @@ router.delete('/notes/:id', (req, res) => {
     if (exists) {
         return res.json(deleteNote(req.params.id, notes));
     } else {
-        res.status(400).send(`No notes found with the id ${req.params.id}`)
+        res.status(400).send(`No notes found with the id ${req.params.id}`);
     }
 
 });

@@ -91,6 +91,7 @@ const handleNoteDelete = (e) => {
 
   deleteNote(noteId).then(() => {
     getAndRenderNotes();
+    location.reload();
     renderActiveNote();
   });
 };
@@ -122,7 +123,7 @@ const renderNoteList = async (notes) => {
   if (window.location.pathname === '/notes') {
     noteList.forEach((el) => (el.innerHTML = ''));
   }
-
+  
   let noteListItems = [];
 
   // Returns HTML element with or without a delete button
@@ -170,7 +171,7 @@ const renderNoteList = async (notes) => {
 };
 
 // Gets notes from the db and renders them to the sidebar
-const getAndRenderNotes = () => getNotes().then(renderNoteList);
+const getAndRenderNotes = () => getNotes().then(notes => renderNoteList(notes));
 
 if (window.location.pathname === '/notes') {
   saveNoteBtn.addEventListener('click', handleNoteSave);
